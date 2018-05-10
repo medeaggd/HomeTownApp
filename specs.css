@@ -2,11 +2,6 @@
  needs hamburger menu, single col
 */
 @media screen and (max-width: 600px) {
-  .content {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
   .hero, .weather, .top-news, .scores {
     width: 100%;
   }
@@ -48,12 +43,16 @@
 /* For small-med screens, 601-750px
  nav bar instead of hamburger*/
 @media screen and (min-width: 601px) and (max-width: 750px) {
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
     .hero {
       width: 60%;
       order: 0;
     }
     .weather {
-      width: 40%;
+      width: calc(40% - 1em);
       order: 1;
     }
     .top-news {
@@ -64,11 +63,19 @@
       width: 50%;
       order: 2;
     }
+    .recent-news {
+      width: 100%;
+      order: 4;
+    }
 }
 
 /* For medium-large screens, 751-960px
  mostly fluid*/
 @media screen and (min-width: 751px) {
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .hero {
     width: 50%;
     order: 0;
@@ -84,6 +91,10 @@
   .scores {
     width: 50%;
     order: 2;
+  }
+  .recent-news {
+    width: 100%;
+    order: 4;
   }
 }
 
