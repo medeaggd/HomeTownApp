@@ -75,24 +75,12 @@ ul {
   color: #212121;
 }
 
-#hamburger {
-  display: flow;
-  max-width: 36px;
-  height: 36px;
-  cursor: pointer;
-}
 
 /*
  *
  * Top Level Navigation
  *
  */
-
-.nav {
-  width: 100%; /*changed from 800px*/
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .nav__list {
   width: 100%;
