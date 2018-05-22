@@ -10,8 +10,9 @@ it should work in any form of browser window. Just open _index.html_ with your
 browser of choice.
 
 ## Known Bugs
-**2018/05/22:** I broke the responsive flow, the hamburger button does not hide at
-viewport width greater than 600px nor does it maintain declared size.
+**2018/05/22:** FIXED (missing curly bracket): I broke the responsive flow, the
+hamburger button does not hide at viewport width greater than 600px nor does it
+maintain declared size.
 
 ## License
 As most of the starter code was provided by the **Udacity** course, I cannot take
