@@ -21,8 +21,9 @@
   }
 
   #hamburger {
-    width: 48px;
-    height: 48px;
+    width: 50px;
+    height: 50px;
+    float: right;
     cursor: pointer;
   }
 
@@ -32,23 +33,7 @@
     z-index: 2;
     display: none;
   }
-
-
-/* For _all_ screens larger than 601px:
-   remove hamburger button.
-*/
-@media screen and (min-width: 601px) {
-    #hamburger {
-      display: none;
-    }
-
-    .nav {
-      width: 100%; /*changed from 800px*/
-      margin-left: auto;
-      margin-right: auto;
-    }
 }
-
 
 /* For medium screens, 601-750px:
    nav bar instead of hamburger
@@ -57,6 +42,20 @@
   .content {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  #hamburger {
+    display: none;
+  }
+
+  #drawer {
+    display: block;
+  }
+
+  .nav {
+    width: 100%; /*changed from 800px*/
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .hero {
@@ -93,22 +92,41 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  #hamburger {
+    display: none;
+  }
+
+  #drawer {
+    display: block;
+  }
+
+  .nav {
+    width: 100%; /*changed from 800px*/
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .hero {
     width: 50%;
     order: 0;
   }
+
   .weather {
     width: 50%;
     order: 3;
   }
+
   .top-news {
     width: 50%;
     order: 1;
   }
+
   .scores {
     width: 50%;
     order: 2;
   }
+
   .recent-news {
     width: 100%;
     order: 4;
