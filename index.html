@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brighton Times</title>
+    <title>The Spring Times</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" type="text/css" href="specs.css">
@@ -15,7 +15,7 @@
       <div class="header__inner">
         <img class="header__logo" src="images/city.png" alt="iconic view of a cityscape">
         <h1 class="header__title">
-          The Brighton Times
+          The Spring Times
         </h1>
         <img src="images/hamburger-100.png" alt="Hamburger Menu" id="hamburger">
         <!-- Changed from a button that had text &#9776; -->
@@ -62,49 +62,113 @@
           <table class="scores__table">
             <thead>
               <tr>
-                <th>date</th>
-                <th>team</th>
-                <th colspan="2">score</th>
-                <th>team</th>
+                <th class="scores__date">May 11</th>
+                <th class="scores__inning">1</th>
+                <th class="scores__inning">2</th>
+                <th class="scores__inning">3</th>
+                <th class="scores__inning">4</th>
+                <th class="scores__inning">5</th>
+                <th class="scores__inning">6</th>
+                <th class="scores__inning">7</th>
+                <th class="scores__inning">8</th>
+                <th class="scores__inning">9</th>
+                <th class="scores__runs">R</th>
+                <th class="scores__hits">H</th>
+                <th class="scores__errors">E</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Friday</td>
-                <td>Bears</td>
-                <td>95</td>
-                <td class="winner">109</td>
-                <td class="winner">Cubs</td>
+                <td>
+                  <span class="scores__shortName winner">TEX</span>
+                  <span class="scores__longName winner">Texas Rangers</span>
+                </td>
+                <td class="scores__inning">0</td>
+                <td class="scores__inning">0</td>
+                <td class="scores__inning">0</td>
+                <td class="scores__inning">0</td>
+                <td class="scores__inning">0</td>
+                <td class="scores__inning">0</td>
+                <td class="scores__inning">1</td>
+                <td class="scores__inning">0</td>
+                <td class="scores__inning">0</td>
+                <td class="scores__runs winner">1</td>
+                <td class="scores__hits">5</td>
+                <td class="scores__errors">1</td>
               </tr>
               <tr>
-                <td>Friday</td>
-                <td class="winner">Otters</td>
-                <td class="winner">3</td>
-                <td>1</td>
-                <td>Cubs</td>
+                <td>
+                  <span class="scores__shortName">HOU</span>
+                  <span class="scores__longName">Houston Astros</span>
+                </td>
+                <td class="scores__inning">0</td>
+                <td class="scores__inning">0</td>
+                <td class="scores__inning">0</td>
+                <td class="scores__inning">0</td>
+                <td class="scores__inning">0</td>
+                <td class="scores__inning">0</td>
+                <td class="scores__inning">0</td>
+                <td class="scores__inning">0</td>
+                <td class="scores__inning">0</td>
+                <td class="scores__runs">0</td>
+                <td class="scores__hits">1</td>
+                <td class="scores__errors">1</td>
+              </tr>
+            </tbody>
+            <thead>
+                <tr>
+                  <th class="scores__date">May 12</th>
+                  <th class="scores__inning">1</th>
+                  <th class="scores__inning">2</th>
+                  <th class="scores__inning">3</th>
+                  <th class="scores__inning">4</th>
+                  <th class="scores__inning">5</th>
+                  <th class="scores__inning">6</th>
+                  <th class="scores__inning">7</th>
+                  <th class="scores__inning">8</th>
+                  <th class="scores__inning">9</th>
+                  <th class="scores__runs">R</th>
+                  <th class="scores__hits">H</th>
+                  <th class="scores__errors">E</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <td>
+                    <span class="scores__shortName">TEX</span>
+                    <span class="scores__longName">Texas Rangers</span>
+                  </td>
+                  <td class="scores__inning">0</td>
+                  <td class="scores__inning">0</td>
+                  <td class="scores__inning">1</td>
+                  <td class="scores__inning">0</td>
+                  <td class="scores__inning">0</td>
+                  <td class="scores__inning">0</td>
+                  <td class="scores__inning">0</td>
+                  <td class="scores__inning">0</td>
+                  <td class="scores__inning">0</td>
+                  <td class="scores__runs">1</td>
+                  <td class="scores__hits">4</td>
+                  <td class="scores__errors">1</td>
               </tr>
               <tr>
-                <td>Saturday</td>
-                <td class="winner">Wolves</td>
-                <td class="winner">7</td>
-                <td>0</td>
-                <td>Panthers</td>
+                  <td>
+                    <span class="scores__shortName winner">HOU</span>
+                    <span class="scores__longName winner">Houston Astros</span>
+                  </td>
+                  <td class="scores__inning">0</td>
+                  <td class="scores__inning">0</td>
+                  <td class="scores__inning">1</td>
+                  <td class="scores__inning">1</td>
+                  <td class="scores__inning">1</td>
+                  <td class="scores__inning">0</td>
+                  <td class="scores__inning">0</td>
+                  <td class="scores__inning">3</td>
+                  <td class="scores__inning">x</td>
+                  <td class="scores__runs winner">6</td>
+                  <td class="scores__hits">8</td>
+                  <td class="scores__errors">0</td>
               </tr>
-              <tr>
-                <td>Sunday</td>
-                <td>Hawks</td>
-                <td>11</td>
-                <td class="winner">12</td>
-                <td class="winner">Capons</td>
-              </tr>
-              <tr>
-                <td>Sunday</td>
-                <td class="winner">Stags</td>
-                <td class="winner">6</td>
-                <td>2</td>
-                <td>Foxes</td>
-              </tr>
-
             </tbody>
           </table>
         </section>

@@ -1,3 +1,32 @@
+/* Breaking scores table down across smaller sizes
+*/
+@media screen and (max-width: 300px) {
+  .header__title {
+    width: 50%;
+    font-size: 2em;
+  }
+  .scores__inning, .scores__longName {
+    display: none;
+  }
+  .scores__shortName {
+    display: block;
+  }
+  .snippet__thumbnail {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 301px) and (max-width: 600px) {
+  .header__title {
+    width: 50%;
+    font-size: 3em;
+  }
+  .scores__shortName {
+    display: none;
+  }
+}
+
+
 /* For small screens, under 600px
    hamburger menu, single col
 */
@@ -15,15 +44,12 @@
     width: 20%;
   }
 
-  .header__title {
-    width: 50%;
-    font-size: 2em;
-  }
-
   #hamburger {
     width: 50px;
     height: 50px;
-    float: right;
+    position: relative;
+    left: calc(max-width - 60px);
+    top: 10px;
     cursor: pointer;
   }
 
@@ -33,7 +59,12 @@
     z-index: 2;
     display: none;
   }
+
+  .scores__shortName {
+    display: none;
+  }
 }
+
 
 /* For medium screens, 601-750px:
    nav bar instead of hamburger
@@ -78,6 +109,10 @@
     order: 3;
   }
 
+  .scores__inning, .scores__longName {
+    display: none;
+  }
+
   .recent-news {
     width: 100%;
     order: 4;
@@ -113,7 +148,7 @@
   }
 
   .weather {
-    width: 50%;
+    width: 40%;
     order: 3;
   }
 
@@ -123,8 +158,12 @@
   }
 
   .scores {
-    width: 50%;
+    width: 60%;
     order: 2;
+  }
+
+  .scores__shortName {
+    display: none;
   }
 
   .recent-news {

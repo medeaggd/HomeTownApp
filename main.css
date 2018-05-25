@@ -72,6 +72,7 @@ ul {
   overflow-wrap: normal;
   margin: 0.5em 0.25em;
   display: inline-block;
+  align-items: center;
   color: #212121;
 }
 
