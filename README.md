@@ -12,12 +12,7 @@ browser of choice.
 ## Known Bugs
 **2018/05/25:** 1. Between 301 and 445px, "Hero image" is actually larger than
 the content of the page (evidenced by header box being shorter than width). Not
-sure what's going on here. 2. Scores - "winner" name not bolded, ever. 3. Scores -
-short name does not appear under 300px.
-
-**2018/05/22:** FIXED (missing curly bracket): I broke the responsive flow, the
-hamburger button does not hide at viewport width greater than 600px nor does it
-maintain declared size.
+sure what's going on here.
 
 ## License
 As most of the starter code was provided by the **Udacity** course, I cannot take
