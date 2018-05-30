@@ -1,8 +1,8 @@
 # HomeTownApp
 An early challenge of the **Udacity FEND program**, this provided website is
 manipulated with responsive design principles to execute in an appealing manner
-across different viewport sizes. The site represents a glimpse into the goings-
-on of a town with news, weather, and sports.
+across different viewport sizes. The site represents a glimpse into the happenings
+of a town with news, weather, and sports.
 
 ## Viewing
 As this is a website that has been created to be viewed on varying screen sizes,
@@ -10,9 +10,9 @@ it should work in any form of browser window. Just open _index.html_ with your
 browser of choice.
 
 ## Known Bugs
-**2018/05/22:** FIXED (missing curly bracket): I broke the responsive flow, the
-hamburger button does not hide at viewport width greater than 600px nor does it
-maintain declared size.
+**2018/05/25:** 1. Between 301 and 445px, "Hero image" is actually larger than
+the content of the page (evidenced by header box being shorter than width). Not
+sure what's going on here.
 
 ## License
 As most of the starter code was provided by the **Udacity** course, I cannot take
