@@ -1,0 +1,115 @@
+/*Soft break for text*/
+@media screen and (max-width: 450px) {
+
+  .logo {
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  .header_name h1 {
+    font-size: 16pt;
+  }
+
+  .header_name h3 {
+    font-size: 10pt;
+  }
+
+  .core_photo {
+      width: 90%;
+      max-width: 550px;
+      display: block;
+      margin: auto;
+  }
+
+  .core p {
+      font-size: 14pt;
+  }
+
+  .feature {
+      width: 80%;
+      margin: 10px auto 10px auto;
+  }
+
+  .feat_pic {
+      display: block;
+      margin: auto;
+      max-width: 348px;
+  }
+
+  .proj_title {
+      text-align: center;
+  }
+
+  .connections {
+      font-size: 10pt;
+  }
+
+  .connect_icon {
+      width: 25px;
+      height: 25px;
+  }
+}
+
+/* For screens smaller than 649px */
+@media screen and (min-width: 451px) and (max-width: 649px) {
+
+  .core_photo {
+      width: 90%;
+      max-width: 550px;
+      display: block;
+      margin: auto;
+  }
+
+  .feature {
+      width: calc(max-width - 10px);
+  }
+
+  .feat_pic {
+      display: block;
+      margin: auto;
+      max-width: 348px;
+  }
+
+  .proj_title {
+      text-align: center;
+  }
+}
+
+
+/* For screens larger than 650px */
+@media screen and (min-width: 650px) {
+
+  .core_photo {
+      width: 80%;
+      display: block;
+      margin: auto;
+  }
+
+  .feature_work {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .feature {
+      width: calc(33% - 4px);
+      margin: 2px;
+  }
+
+  .feat_pic {
+      width: calc(100% - 8px);
+      display: block;
+      margin: auto;
+  }
+}
+
+/* For screens larger than 900px */
+@media screen and (min-width: 900px) {
+
+  .core_photo {
+      width: 80%;
+      max-width: 1225px;
+      display: block;
+      margin: auto;
+  }
+}
